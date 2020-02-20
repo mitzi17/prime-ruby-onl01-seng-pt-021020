@@ -1,8 +1,8 @@
 # Add  code here!
 def prime?(num)
-  if num.Prime?
-    TRUE
+  if num < 0 or num == 0 or num == 1
+    return false
   else
-    FALSE
+    true
   end
   
